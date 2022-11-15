@@ -1,0 +1,48 @@
+.navBar {
+  background-color: rgb(6, 48, 117);
+  padding-bottom: 25px;
+  color: white;
+}
+body {
+  background-color: rgb(151, 147, 92);
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 20px;
+  /* padding: 0 15px; */
+}
+.row {
+  /* margin: 0 -15px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon1 {
+  margin: auto 0;
+  align-items: center;
+}
+svg {
+  margin-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.addEmploye {
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+  margin: auto 0;
+}
+.addEmploye svg {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+h2 {
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+img {
+  width: 45px;
+  height: 45px;
+  /* overflow: hidden; */
+  border-radius: 50%;
+}
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: rgb(229, 128, 13);
+}
+.name {
+  padding-left: 10px;
+}

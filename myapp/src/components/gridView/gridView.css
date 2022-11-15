@@ -1,0 +1,31 @@
+.myClssContainer .container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  /* margin: 0 -15px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images {
+  margin: 0 105px;
+}
+.img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.contain {
+  text-align: center;
+}
+.contain h3 {
+  margin: 3px 3px 0 0;
+}
+.contain h4 {
+  font-size: 10px;
+  color: gray;
+  font-weight: 500;
+  margin: 3px 3px 0 0;
+}

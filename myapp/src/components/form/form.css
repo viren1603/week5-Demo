@@ -1,0 +1,53 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  /* margin: 0 -15px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  height: 540px;
+  width: 700px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgb(34, 74, 108);
+  border-radius: 10px;
+  margin-top: 40px;
+  color: white;
+}
+
+h2 {
+  /* text-align: center; */
+  margin: 0 auto;
+}
+.part1 {
+  margin-top: 25px;
+}
+.part2 {
+  margin-top: 25px;
+}
+.submit {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+}
+
+select option:checked {
+  background-color: #ff9800ab;
+
+  color: white;
+}
+.back {
+  cursor: pointer;
+}
